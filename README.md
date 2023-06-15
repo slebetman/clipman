@@ -1,4 +1,4 @@
-# Clipman
+# clipman-cli
 
 Command-line clipboard manager
 
