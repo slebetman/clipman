@@ -1,5 +1,5 @@
 {
-  "name": "clipman",
+  "name": "@slebetman/clipman",
   "version": "1.0.0",
   "description": "Pretty format clipboard content",
   "main": "clipman",
