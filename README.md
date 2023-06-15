@@ -33,4 +33,4 @@ To select the third previous data type:
 
 ## Installation
 
-    npm install -g @slebetman/clipman
+    npm install -g clipman-cli
