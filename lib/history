@@ -2,7 +2,7 @@ let HISTORY = [];
 let MAXLEN = 32;
 
 const history = {
-	getLatest: () => HISTORY.slice(-1)[0],
+	getLatest: () => HISTORY[0],
 	push: (txt) => {
 		HISTORY.unshift(txt);
 		if (HISTORY.length > MAXLEN) {
