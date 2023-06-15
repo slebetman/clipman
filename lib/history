@@ -1,0 +1,16 @@
+let HISTORY = [];
+let MAXLEN = 32;
+
+const history = {
+	getLatest: () => HISTORY.slice(-1)[0],
+	push: (txt) => {
+		HISTORY.unshift(txt);
+		if (HISTORY.length > MAXLEN) {
+			HISTORY = HISTORY.slice(MAXLEN);
+		}
+	},
+	all: () => HISTORY,
+	get: (i) => HISTORY[i],
+}
+
+module.exports = history;

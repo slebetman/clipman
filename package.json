@@ -4,15 +4,17 @@
   "description": "Pretty format clipboard content",
   "main": "clipman",
   "bin": {
-  	"clipman": "./clipman"
+    "clipman": "./clipman"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":"https://github.com/slebetman/clipman",
+  "repository": "https://github.com/slebetman/clipman",
   "author": "slebetman@gmail.com",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "clipboardy": "^3.0.0"
+    "clipboardy": "^3.0.0",
+    "minimist": "^1.2.8",
+    "xdg-portable": "^10.6.0"
   }
 }

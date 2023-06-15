@@ -1,0 +1,18 @@
+#! /usr/bin/env node
+
+const minimist = require('minimist');
+const server = require('./lib/server');
+const client = require('./lib/client');
+
+async function main (opt) {
+	const clipboard = (await import('clipboardy')).default;
+	
+	if (opt.server || opt.daemon) {
+		server(clipboard);
+	}
+	else {
+		await client(opt._[0]);
+	}
+}
+
+main(minimist(process.argv.slice(2)));
