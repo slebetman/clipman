@@ -1,7 +1,7 @@
 {
   "name": "clipman-cli",
-  "version": "1.0.0",
-  "description": "Pretty format clipboard content",
+  "version": "1.0.1",
+  "description": "Command line clipboard manager",
   "main": "clipman",
   "bin": {
     "clipman": "./clipman"
