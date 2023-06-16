@@ -1,21 +1,22 @@
 {
-  "name": "clipman-cli",
-  "version": "1.0.2",
-  "description": "Command line clipboard manager",
-  "main": "clipman",
-  "bin": {
-    "clipman": "./clipman"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "https://github.com/slebetman/clipman",
-  "author": "slebetman@gmail.com",
-  "license": "BSD-2-Clause",
-  "dependencies": {
-    "clipboardy": "^3.0.0",
-    "minimist": "^1.2.8",
-    "mkdirp": "^3.0.1",
-    "xdg-portable": "^10.6.0"
-  }
+	"name": "clipman-cli",
+	"version": "1.0.3",
+	"description": "Command line clipboard manager",
+	"main": "clipman",
+	"bin": {
+		"clipman": "./clipman",
+		"clipman.sh": "./clipman.sh"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": "https://github.com/slebetman/clipman",
+	"author": "slebetman@gmail.com",
+	"license": "BSD-2-Clause",
+	"dependencies": {
+		"clipboardy": "^3.0.0",
+		"minimist": "^1.2.8",
+		"mkdirp": "^3.0.1",
+		"xdg-portable": "^10.6.0"
+	}
 }
