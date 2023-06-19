@@ -1,4 +1,4 @@
-# ![Logo](https://github.com/slebetman/clipman/raw/main/icon.svg|width=64px) clipman-cli
+# ![Logo](https://github.com/slebetman/clipman/raw/main/icon.svg) clipman-cli
 
 Command-line clipboard manager
 
